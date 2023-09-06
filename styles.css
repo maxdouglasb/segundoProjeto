@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@400;500 & display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233d;
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.button-header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background: #4cb538;
+    width: 124px;
+    height: 51px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.button-header:hover {
+    background-color: #161a49;
+}
+
+.imgOnePrincipal {
+    width: 596px;
+    height: 500px;
+    margin-top: 163px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 84px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161a49;
+    letter-spacing: 0.6px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    letter-spacing: 0.5px;
+}
+
+.link-section {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6fbf44;
+    text-decoration: none;
+}
+
+.link-section:hover {
+    color: #161a49;
+}
+
+@media screen and (max-width: 900px) {
+    .link-header {
+        display: none;
+    }
+    header {
+        text-align: end;
+        margin-top: 15px;
+        margin-right: 18px;
+    }
+    .button-header {
+        width: 91px;
+        height: 31px;
+        line-height: 18px;
+    }
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    section {
+        margin: 0;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .imgOnePrincipal {
+        width: 312px;
+        height: 288px;
+        align-items: center;
+        margin: 30px auto 0;
+        display: block;
+    }
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+        margin: 100px 55px 15px;
+    }
+    p {
+        text-align: center;
+        margin: 5px 55px 15px;
+    }
+    .link-section {
+        text-align: center;
+    }
+}
